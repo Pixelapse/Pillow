@@ -91,7 +91,7 @@ JPEG_ROOT = None
 ZLIB_ROOT = None
 TIFF_ROOT = None
 FREETYPE_ROOT = None
-LCMS_ROOT = None
+LCMS_ROOT = '/app/im/lib', '/app/im/include'
 
 
 class pil_build_ext(build_ext):
